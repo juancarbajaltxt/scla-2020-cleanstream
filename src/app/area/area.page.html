@@ -1,9 +1,86 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>area</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
+  <ion-card id="Card1">
+    <ion-card-header>
+      <ion-card-title id="South"> South Central
+    
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <div class = "grid">
+    <ion-col>
+      <div class="inner-cards"  id ="Imperial" (click)="nav('/imperial')">
+       Imperial
+      </div>
+    </ion-col>
+
+    <ion-col>
+      <div class="inner-cards" id="Watts" (click)="nav('/watts')">
+       Watts
+      </div>
+    </ion-col>
+
+    <ion-col>
+      <div class="inner-cards" id = "Wadsworth"(click)="nav('/info')">
+      Wadsworth
+      </div>
+    </ion-col>
+    <ion-col>
+      <div class="inner-cards" id = "Avalon"(click)="nav('/avalon')">
+       Avalon
+      </div>
+    </ion-col>
+
+
+</div>
+<div class = "century1">
+<div id = "Century">
+  Century
+</div>
+
+</div>
+
+<div id = "empty">
+<p class = "text"> - Empty </p>
+</div>
+
+<div id = "empty">
+  <p class = "text2"> - Easy Clean </p>
+  </div>
+
+  <div id = "empty">
+    <p class = "text3"> - In progress </p>
+    </div>
+  
+    <div id = "empty">
+      <p class = "text4"> - In progress </p>
+      </div>
+
+      <div id = "empty">
+        <p class = "text5"> - Hard Clean </p>
+        </div>
+
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="back" routerLink 
+      = '/list'>
+        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+        <ion-label>Back</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="home" routerLink 
+      = '/home'>
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Home</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="settings" routerLink 
+      = '/settings'>
+        <ion-icon name="cog"></ion-icon>
+        <ion-label>Settings</ion-label>
+      </ion-tab-button>
+    
+    </ion-tab-bar>
+  </ion-tabs>
 
 </ion-content>

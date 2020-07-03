@@ -1,9 +1,90 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>list</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
 
+<ion-content class = "background" [fullscreen] = "true">
+  <ion-card id="Card1">
+    <ion-card-header>
+      <ion-card-title> Los Angeles 
+    
+      </ion-card-title>
+      <ion-card-title>-</ion-card-title>
+      <ion-card-title>CA</ion-card-title>
+    </ion-card-header>
+  
+  </ion-card>
+
+  <ion-grid>
+    <div class = "grid">
+    <ion-row>
+      
+      <ion-col>
+        <div class="inner-cards"  id ="East" (click)="nav('/')">
+         East LA
+        </div>
+      </ion-col>
+
+      <ion-col>
+        <div class="inner-cards" id="West" (click)="nav('/')">
+         West LA
+        </div>
+      </ion-col>
+
+      <ion-col>
+        <div class="inner-cards" id = "South" (click)="nav('/area')">
+          South Central
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="inner-cards" id = "Glendale"(click)="nav('/')">
+         Glendale
+        </div>
+      </ion-col>
+    
+      <ion-col>
+        <div class="inner-cards" id= "Hollywood" (click)="nav('/')">
+         Hollywood
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="inner-cards" id = "burbank" (click)="nav('/')">
+         Burbank
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="inner-cards"  id = "hidden" (click)="nav('/')">
+         Hidden Hills
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="inner-cards" id = "Long" (click)="nav('/')">
+         Long Beach
+        </div>
+      </ion-col> 
+
+
+
+    </ion-row>
+    </div>
+  </ion-grid>
+
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="back" routerLink 
+      = '/'>
+        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+        <ion-label>Back</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="home" outerLink 
+      = '/home'>
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Home</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="settings" routerLink 
+      = '/settings'>
+        <ion-icon name="cog"></ion-icon>
+        <ion-label>Settings</ion-label>
+      </ion-tab-button>
+    
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>

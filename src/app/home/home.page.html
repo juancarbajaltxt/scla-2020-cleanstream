@@ -1,21 +1,47 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer"
-        href="https://ionicframework.com/docs/components">UI Components</a></p>
+<div class="card1" (click)="nav('/profile')">
+    <ion-card-header>
+      <ion-card-title id="Profile"> Profile
+    
+      </ion-card-title>
+    </ion-card-header>
+</div>
+
+<div class="card2">
+    <ion-card-header>
+      <ion-card-title id="maps"> Maps 
+    
+      </ion-card-title>
+    </ion-card-header>
   </div>
+
+  <div class = "card3" >
+    <ion-card-header>
+      <ion-card-title id="clean"> Clean Ups
+</ion-card-title>
+    </ion-card-header>
+  </div>
+
+<ion-title id = "selection">
+Pick your <br> Selection
+</ion-title>
+
+<ion-title id = "selection2">
+  We'll make your life not just easier, but cleaner.
+  </ion-title>
+
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="settings" routerLink 
+      = '/settings'>
+        <ion-icon name="cog"></ion-icon>
+        <ion-label>Settings</ion-label>
+      </ion-tab-button>
+    
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>

@@ -1,27 +1,108 @@
-#container {
-  text-align: center;
+ion-content{
 
+  --ion-background-color:#A6D1EA;
+}
+ion-tabs{
+  --ion-background-color: #EFEFEF;
+}
+
+.card1{
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+width: 169px;
+height: 231px;
+left: 26px;
+top: 208px;
+
+background: #A270A3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
 }
+#Profile{
+  position: absolute;
+width: 119px;
+height: 49px;
+left: 25px;
+top: 90px;
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+
 }
+.card2{
+  position: absolute;
+width: 169px;
+height: 231px;
+left: 227px;
+top: 208px;
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+background: #A270A3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
 }
+#maps{
+  position: absolute;
+  width: 119px;
+  height: 49px;
+  left: 35px;
+  top: 90px;
+  
+  font-family: Tamil MN;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  
+}
+.card3{
+  position: absolute;
+width: 360px;
+height: 195px;
+left: 27px;
+top: 467px;
 
-#container a {
-  text-decoration: none;
+background: #DEB2C7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+#clean{
+  position: absolute;
+width: 177px;
+height: 44px;
+left: 85px;
+top: 80px;
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 30px;
+}
+#selection{
+  position: absolute;
+top: -250px;
+left: -100px;
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+
+}
+#selection2{
+  position: absolute;
+width: 500px;
+height: 16px;
+left: -70px;
+top: 176px;
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
 }

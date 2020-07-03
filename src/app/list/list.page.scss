@@ -1,0 +1,155 @@
+ion-content{
+
+    --ion-background-color:#A6D1EA;
+}
+ion-tabs{
+    --ion-background-color: #EFEFEF;
+}
+
+ion-card{
+    width: 55% ;
+    height: 120px ;
+    position: initial;
+    background-color:rgb(122, 179, 81, 1) ;
+    
+}
+ion-card-title {
+    text-align: center;
+    font-family: Tamil MN;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.inner-cards{
+    height: 60px;
+    width:170px;
+    position: initial;
+    margin: auto;
+    background-color:rgb(122, 179, 81, 1) ;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center ;
+    font-family: Tamil MN;
+    font-style: normal;
+    font-weight: bold;
+    border: 3px solid #000000;
+    border-radius: 10px;
+
+
+    
+}
+
+#Card1{
+    position: absolute;
+    width: 163px;
+    height: 129px;
+    left: 115px;
+    top: 122px;
+    
+    background: rgba(239, 239, 239, 0.84);
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+
+#East{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: 55px;
+top: 350px;
+}
+
+#West{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: 160px;
+top: 350px;
+
+background: #79B251;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+
+
+#South{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: -45px;
+top: 430px;
+
+background: #79B251;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+
+#Glendale{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: 58px;
+top: 430px;
+
+background: #79B251;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+
+#Hollywood{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: -148px;
+top: 510px;
+
+background: #79B251;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+#burbank{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: -45px;
+top: 510px;
+
+background: #79B251;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+#hidden{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: -250px;
+top: 585px;
+
+background: #79B251;
+border: 3px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+}
+#Long{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: -145px;
+top: 585px;
+
+background: #79B251;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+
+.grid{
+   top: 600px;
+
+
+}
+.content{
+    background-color: #A6D1EA;
+
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+// import {NavController} from 'ionic-angular';
+import {AreaPage} from '../area/area.page';
 
 @Component({
   selector: 'app-list',
@@ -9,6 +11,9 @@ export class ListPage implements OnInit {
 
   constructor() { }
 
+  //pushPage() {
+    //this.navCtrl.push(AreaPage)
+  //}
   ngOnInit() {
   }
 

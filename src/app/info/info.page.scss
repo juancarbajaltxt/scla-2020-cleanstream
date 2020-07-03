@@ -1,0 +1,87 @@
+ion-content{
+
+    --ion-background-color:#A6D1EA;
+}
+ion-tabs{
+    --ion-background-color: #EFEFEF;
+}
+
+.card-title {
+    width: 197px;
+    height: 51px;
+    
+    font-family: Tamil MN;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 134px;
+    color: black;
+    
+    }
+     
+    ion-card {
+    width: 256px;
+    height: 193px;
+    left: -30px;
+    top: -40px;
+    
+    background: #E8EBEC;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    }
+    .rob{
+        position: absolute;
+    width: 360px;
+    height: 302px;
+    left: 33px;
+    top: 224px;
+    
+    font-family: Tamil MN;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+    }
+    #COMING{
+        position: absolute;
+    width: 72px;
+    height: 65px;
+    left: 36px;
+    top: 590px;
+    
+    background: #79B251;
+    border-radius: 10px;
+    
+    }
+    .explosion{
+        position: absolute;
+    width: 93px;
+    height: 86px;
+    left: 26px;
+    top: 529px;
+    
+    background: #79B251;
+    }
+    #up{
+        position: absolute;
+    width: 72px;
+    height: 65px;
+    left: 171px;
+    top: 590px;
+    
+    background: #79B251;
+    border-radius: 10px;
+    
+    }
+    #down{
+        position: absolute;
+    width: 72px;
+    height: 65px;
+    left: 305px;
+    top: 590px;
+    
+    background: #79B251;
+    border-radius: 10px;
+    }
