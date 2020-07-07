@@ -2,8 +2,11 @@
 
 <ion-content [fullscreen]="true">
 
-<div class="card1" (click)="nav('/profile')">
-    <ion-card-header>
+  <ion-button routerLink = "/profile">
+hi
+  </ion-button>
+<div class="card1"  >
+    <ion-card-header (click)= "nextpage()">
       <ion-card-title id="Profile"> Profile
     
       </ion-card-title>
@@ -20,7 +23,7 @@
 
   <div class = "card3" >
     <ion-card-header>
-      <ion-card-title id="clean"> Clean Ups
+      <ion-card-title id="clean" (click)="nav('/area')"> Clean Ups
 </ion-card-title>
     </ion-card-header>
   </div>
@@ -34,7 +37,7 @@ Pick your <br> Selection
   </ion-title>
 
 
-  <ion-tabs>
+  <ion-tabs class = "tabs">
     <ion-tab-bar slot="bottom">
       <ion-tab-button tab="settings" routerLink 
       = '/settings'>

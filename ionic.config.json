@@ -1,5 +1,7 @@
 {
   "name": "cleanstream",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
