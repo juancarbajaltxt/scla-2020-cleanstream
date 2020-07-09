@@ -12,4 +12,16 @@ export class InfoPage implements OnInit {
   ngOnInit() {
   }
 
+  showText() {
+    document.getElementById("boom").style.display = 'block'  ;
+
+  }
+
+  Thumb() { 
+    document.getElementById("tup").style.display = 'block'  ;
+  }
+
+  showText3() { 
+    document.getElementById("tdown").style.display = 'block'  ;
+  }
 }

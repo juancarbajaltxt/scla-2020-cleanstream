@@ -19,7 +19,7 @@ ion-tabs{
     border-radius: 30px;
 }
 
-ion-card-title{
+#setting{
     position: absolute;
 width: 97px;
 height: 29px;
@@ -44,3 +44,201 @@ border-radius: 10px;
 
 }
 }
+ion-checkbox{
+
+}
+
+.check1{
+position: absolute;
+left: 15px;
+top: 145px;
+
+}
+#Card2{
+    width: 30px;
+height: 30px;
+left: 23px;
+top: 120px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+#Card3{
+    position: absolute;
+width: 272px;
+height: 44px;
+left: 23px;
+top: 301px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+#Preferences{
+    position: absolute;
+width: 150px;
+height: 29px;
+left: 60px;
+top: 10px;
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+}
+
+#Card4{
+    position: absolute;
+width: 114px;
+height: 42px;
+left: 23px;
+top: 379px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+#Card5{
+    position: absolute;
+    width: 114px;
+    height: 39px;
+    left: 23px;
+    top: 455px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+#Card7{
+position: absolute;
+width: 126px;
+height: 50px;
+left: 23px;
+top: 593px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+#Log{
+    position: absolute;
+width: 95px;
+height: 29px;
+left: 15px;
+top: 15px;
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+}
+#Help{
+    position: absolute;
+width: 55px;
+height: 29px;
+left: 28px;
+top: 10px;
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+}
+
+#Card6{
+    position: absolute;
+width: 284px;
+height: 53px;
+left: 23px;
+top: 514px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+#Terms{
+
+position: absolute;
+width: 300px;
+height: 29px;
+left: 10px;
+top: 15px;
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+}
+
+.tab{
+    position: absolute;
+  height: 100px;
+  width: 1200px;
+  top: 680px ;
+  right: -10px;
+  background-color: white;
+  border-style: solid;
+  
+  }
+
+  #About{
+      position: absolute;
+    width: 71x;
+    height: 29px;
+    left: 20px;
+    top: 10px;
+    
+    font-family: Tamil MN;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .button1{
+position:  absolute;
+ top: 690px;
+  right: 45%;
+  z-index: 1;
+  background: white;
+  }
+  .button2{
+    position:  absolute;
+     top: 690px;
+      right: 45%;
+      z-index: 1;
+      background: white;
+      }
+     
+
+
+  ion-icon{
+height: 30px;
+width: 30px;
+background: white;
+
+#box2{
+    width: 30px;
+    height: 30px;
+    left: 23px;
+    top: 120px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#text{
+}
+  }

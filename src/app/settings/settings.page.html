@@ -3,21 +3,77 @@
 
   <ion-card id="Card1">
     <ion-card-header>
-      <ion-card-title> Settings
+      <ion-card-title id ="setting"> Settings
     </ion-card-title>
     </ion-card-header>
   
   </ion-card>
 
+  <div class= "loc">
+    <p id = "text">Allow app to access location? </p>
+  </div>
 
-  <ion-tabs>
-    <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="home" routerLink 
-      = '/home'>
-        <ion-icon name="home"></ion-icon>
-        <ion-label>Home</ion-label>
-      </ion-tab-button>
-    
-    </ion-tab-bar>
-  </ion-tabs>
+  <!-- <div class = "check1">
+  <ion-checkbox  disabled="true" id = "location" color = "light"></ion-checkbox>
+  <ion-checkbox checked="true" color = "light"></ion-checkbox>
+</div> -->
+
+<ion-card id="Card2">
+  <ion-card-header>
+    <ion-card-title>
+  </ion-card-title>
+  </ion-card-header>
+</ion-card>
+
+<ion-card id="Card3">
+  <ion-card-header>
+    <ion-card-title id = "Preferences">Preferences
+  </ion-card-title>
+  </ion-card-header>
+
+</ion-card>
+
+
+<ion-card id="Card4">
+  <ion-card-header>
+    <ion-card-title id = "About">About
+  </ion-card-title>
+  </ion-card-header>
+
+</ion-card>
+
+
+<ion-card id="Card5">
+  <ion-card-header>
+    <ion-card-title id = "Help">Help
+  </ion-card-title>
+  </ion-card-header>
+
+</ion-card>
+
+<ion-card id="Card6">
+  <ion-card-header>
+    <ion-card-title id = "Terms">Terms and Conditions
+  </ion-card-title>
+  </ion-card-header>
+
+</ion-card>
+
+<ion-card id="Card7" routerLink 
+= '/home2'>
+  <ion-card-header>
+    <ion-card-title id = "Log"> Log Out
+  </ion-card-title>
+  </ion-card-header>
+
+</ion-card>
+
+
+<button class = button1 tab="home" routerLink 
+= '/home'>
+<ion-icon class= "icon" name="home"></ion-icon>
+</button>
+<div class = "tab">
+</div>
+
 </ion-content>

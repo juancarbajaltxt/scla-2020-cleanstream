@@ -1,19 +1,18 @@
 
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class = "screen">
 
-  <ion-button routerLink = "/profile">
-hi
-  </ion-button>
-<div class="card1"  >
-    <ion-card-header (click)= "nextpage()">
+  <img src="https://cdn.discordapp.com/attachments/341994004486946847/730626574575206430/earth.png" id = "earth"/>
+
+<div class="card1" routerLink = "/profile"  >
+    <ion-card-header>
       <ion-card-title id="Profile"> Profile
     
       </ion-card-title>
     </ion-card-header>
 </div>
 
-<div class="card2">
+<div class="card2" routerLink = "/maps">
     <ion-card-header>
       <ion-card-title id="maps"> Maps 
     
@@ -21,9 +20,9 @@ hi
     </ion-card-header>
   </div>
 
-  <div class = "card3" >
+  <div class = "card3" routerLink = "/list">
     <ion-card-header>
-      <ion-card-title id="clean" (click)="nav('/area')"> Clean Ups
+      <ion-card-title id="clean"> Clean Ups
 </ion-card-title>
     </ion-card-header>
   </div>
@@ -37,14 +36,16 @@ Pick your <br> Selection
   </ion-title>
 
 
-  <ion-tabs class = "tabs">
-    <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="settings" routerLink 
-      = '/settings'>
-        <ion-icon name="cog"></ion-icon>
-        <ion-label>Settings</ion-label>
-      </ion-tab-button>
-    
-    </ion-tab-bar>
-  </ion-tabs>
+
+
+  <button tab="settings" routerLink 
+  = '/settings'>
+    <ion-icon class= "icon" name="cog"></ion-icon>
+  </button>
+
+
+
+  <div class = "tab">
+  </div>
+
 </ion-content>

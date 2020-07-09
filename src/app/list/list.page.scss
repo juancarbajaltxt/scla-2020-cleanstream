@@ -153,3 +153,43 @@ border-radius: 10px;
     background-color: #A6D1EA;
 
 }
+.tab{
+    position: absolute;
+  height: 100px;
+  width: 1200px;
+  top: 680px ;
+  right: -10px;
+  background-color: white;
+  border-style: solid;
+  
+  }
+
+  .button1{
+position:  absolute;
+ top: 690px;
+  right: 15%;
+  z-index: 1;
+  background: white;
+  }
+  .button2{
+    position:  absolute;
+     top: 690px;
+      right: 45%;
+      z-index: 1;
+      background: white;
+      }
+      .button3{
+        position:  absolute;
+         top: 690px;
+          right: 75%;
+          z-index: 1;
+          background: white;
+          }     
+
+
+  ion-icon{
+height: 30px;
+width: 30px;
+background: white;
+
+  } 

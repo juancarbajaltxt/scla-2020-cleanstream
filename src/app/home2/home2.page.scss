@@ -39,3 +39,28 @@
     text-align: center;
     padding-bottom: 10px;
 }
+
+ion-content{
+    top: 140px;
+}
+
+#clean{
+
+position: absolute;
+height: 51px;
+top: 50px;
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+}
+
+#earth{
+    z-index: 1;
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    top: 380px;
+    right: 20px;
+}

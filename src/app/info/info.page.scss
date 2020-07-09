@@ -1,6 +1,6 @@
 ion-content{
 
-    --ion-background-color:#A6D1EA;
+    --ion-background-color:#A6D1EA
 }
 ion-tabs{
     --ion-background-color: #EFEFEF;
@@ -85,3 +85,90 @@ ion-tabs{
     background: #79B251;
     border-radius: 10px;
     }
+    .tab{
+    position: absolute;
+  height: 100px;
+  width: 1200px;
+  top: 680px ;
+  right: -10px;
+  background-color: white;
+  border-style: solid;
+  
+  }
+
+  .button1{
+position:  absolute;
+ top: 690px;
+  right: 15%;
+  z-index: 1;
+  background: white;
+  }
+  .button2{
+    position:  absolute;
+     top: 690px;
+      right: 45%;
+      z-index: 1;
+      background: white;
+      }
+      .button3{
+        position:  absolute;
+         top: 690px;
+          right: 75%;
+          z-index: 1;
+          background: white;
+          }     
+
+
+  ion-icon{
+height: 30px;
+width: 30px;
+background: white;
+
+  } 
+#boom{
+    display: none;
+    position: absolute;
+width: 97px;
+height: 22px;
+left: -10px;
+top: 50px;
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+}
+
+#tup{
+
+display: none;
+    position: absolute;
+width: 90px;
+height: 22px;
+left: -11px;
+top: 50px;
+
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+}
+
+#tdown{
+display: none;
+    position: absolute;
+    width: 86px;
+    height: 22px;
+    left: -8px;
+    top: 50px;
+    
+    font-family: Tamil MN;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+

@@ -29,7 +29,7 @@
       </ion-col>
 
       <ion-col>
-        <div class="inner-cards" id = "South" (click)="nav('/area')">
+        <div class="inner-cards" id = "South" routerLink = "/area">
           South Central
         </div>
       </ion-col>
@@ -67,24 +67,24 @@
   </ion-grid>
 
 
-  <ion-tabs>
-    <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="back" routerLink 
-      = '/home'>
-        <ion-icon name="arrow-back-circle-outline"></ion-icon>
-        <ion-label>Back</ion-label>
-      </ion-tab-button>
-      <ion-tab-button tab="home" outerLink 
+
+      <button class = "button2" tab="home" routerLink 
       = '/home'>
         <ion-icon name="home"></ion-icon>
-        <ion-label>Home</ion-label>
-      </ion-tab-button>
-      <ion-tab-button tab="settings" routerLink 
-      = '/settings'>
-        <ion-icon name="cog"></ion-icon>
-        <ion-label>Settings</ion-label>
-      </ion-tab-button>
-    
-    </ion-tab-bar>
-  </ion-tabs>
-</ion-content>
+        <ion-label></ion-label>
+      </button>
+
+    <button class = button1 tab="settings" routerLink 
+  = '/settings'>
+    <ion-icon class= "icon" name="cog"></ion-icon>
+  </button>
+
+  <button class = "button3" tab="back" routerLink 
+  = '/home'>
+    <ion-icon name="arrow-back-circle-outline"></ion-icon>
+    <ion-label></ion-label>
+  </button>
+
+    <div class = "tab">
+    </div>
+  </ion-content>

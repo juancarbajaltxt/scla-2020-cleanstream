@@ -2,9 +2,6 @@ ion-content{
 
   --ion-background-color:#A6D1EA;
 }
-.tabs{
-  --ion-background-color: #EFEFEF;
-}
 
 .card1{
   position: absolute;
@@ -95,14 +92,44 @@ line-height: 44px;
 }
 #selection2{
   position: absolute;
-
 height: 16px;
 left: -70px;
 top: 176px;
+width: auto;
 
 font-family: Tamil MN;
 font-style: normal;
 font-weight: bold;
 font-size: 13px;
 line-height: 16px;
+}
+
+.tab{
+  position: absolute;
+  height: 100px;
+  width: 1200px;
+  top: 680px ;
+  right: -10px;
+  background-color: white;
+  border-style: solid;
+}
+
+button{
+  position: absolute;
+  top: 690px;
+  right: 45%;
+  z-index: 1;
+  background-color: white;
+
+}
+.icon{
+  height: 30px;
+  width: 30px;
+}
+#earth{
+  position: absolute;
+height: 50px;
+width: 50px;
+top: 15px;
+left: 15px;
 }
