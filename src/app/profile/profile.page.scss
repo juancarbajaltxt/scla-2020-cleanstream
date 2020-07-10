@@ -1,3 +1,9 @@
+ion-content{
+
+  --ion-background-color: rgb(237,138,2);
+--ion-background-color: linear-gradient(207deg, rgba(237,138,2,0.39119397759103647) 0%, rgba(255,255,255,1) 53%, rgba(0,251,255,0.4248074229691877) 100%);
+}
+
 .tab{
     position: absolute;
   height: 100px;
@@ -32,3 +38,66 @@ width: 30px;
 background: white;
 
   } 
+  #earth{
+    position: absolute;
+    width: 380px;
+    height: 320px;
+    top: 330px;
+    right: 18px;
+    background:  white;
+  }
+  .line{
+    position: absolute;
+width: 388px;
+height: 0px;
+left: 8px;
+top: 311px;
+border: 3px solid #000000;
+
+  }
+
+  .line2{
+    position: absolute;
+width: 111px;
+height: 0px;
+left: 17px;
+top: 85px;
+
+border: 3px solid #000000;
+  }
+  .info{
+    position: absolute;
+    top: -300px;
+    left: -135px;
+    font-family: Tamil MN;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .text{
+    position: absolute;
+width: 130px;
+height: 214px;
+left: 15px;
+top: 86px;
+
+font-family: Tamil MN;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+  }
+  #oscar{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 20px;
+    top: 40px;
+  }
+
+  #background{
+    background:  white;
+    
+  }

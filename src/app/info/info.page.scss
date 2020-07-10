@@ -1,6 +1,7 @@
 ion-content{
 
-    --ion-background-color:#A6D1EA
+    --ion-background-color: rgb(234,137,24);
+    --ion-background-color: linear-gradient(159deg, rgba(234,137,24,0.6937149859943977) 0%, rgba(255,255,255,1) 58%, rgba(190,89,89,0.5676645658263305) 100%);
 }
 ion-tabs{
     --ion-background-color: #EFEFEF;
@@ -51,7 +52,7 @@ ion-tabs{
     left: 36px;
     top: 590px;
     
-    background: #79B251;
+    background: #A6D1EA;
     border-radius: 10px;
     
     }
@@ -62,7 +63,7 @@ ion-tabs{
     left: 26px;
     top: 529px;
     
-    background: #79B251;
+    background: #A6D1EA;
     }
     #up{
         position: absolute;
@@ -71,7 +72,7 @@ ion-tabs{
     left: 171px;
     top: 590px;
     
-    background: #79B251;
+    background: #A6D1EA;
     border-radius: 10px;
     
     }
@@ -82,7 +83,7 @@ ion-tabs{
     left: 305px;
     top: 590px;
     
-    background: #79B251;
+    background: #A6D1EA;
     border-radius: 10px;
     }
     .tab{

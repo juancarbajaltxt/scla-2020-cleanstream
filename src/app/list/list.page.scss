@@ -1,16 +1,18 @@
 ion-content{
 
-    --ion-background-color:#A6D1EA;
+    --ion-background-color: rgb(234,137,24);
+    --ion-background-color: linear-gradient(159deg, rgba(234,137,24,0.6937149859943977) 0%, rgba(255,255,255,1) 58%, rgba(190,89,89,0.5676645658263305) 100%);
 }
 ion-tabs{
-    --ion-background-color: #EFEFEF;
+   --ion-background-color: rgb(234,137,24);
+--ion-background-color: linear-gradient(159deg, rgba(234,137,24,0.6937149859943977) 0%, rgba(255,255,255,1) 58%, rgba(190,89,89,0.5676645658263305) 100%);
 }
 
 ion-card{
     width: 55% ;
     height: 120px ;
     position: initial;
-    background-color:rgb(122, 179, 81, 1) ;
+    background-color: #A270A3;
     
 }
 ion-card-title {
@@ -27,7 +29,7 @@ ion-card-title {
     width:170px;
     position: initial;
     margin: auto;
-    background-color:rgb(122, 179, 81, 1) ;
+    background-color:#A270A3;
     border-radius: 5px;
     padding: 16px;
     text-align: center ;
@@ -48,7 +50,7 @@ ion-card-title {
     left: 115px;
     top: 122px;
     
-    background: rgba(239, 239, 239, 0.84);
+    background:white;
     border: 5px solid #000000;
     border-radius: 10px;
 }
@@ -68,7 +70,7 @@ height: 57px;
 left: 160px;
 top: 350px;
 
-background: #79B251;
+background:#A270A3;
 border: 3px solid #000000;
 border-radius: 10px;
 }
@@ -81,7 +83,7 @@ height: 57px;
 left: -45px;
 top: 430px;
 
-background: #79B251;
+background: #A270A3;
 border: 3px solid #000000;
 border-radius: 10px;
 }
@@ -93,7 +95,7 @@ height: 57px;
 left: 58px;
 top: 430px;
 
-background: #79B251;
+background: #A270A3;
 border: 3px solid #000000;
 border-radius: 10px;
 }
@@ -105,7 +107,7 @@ height: 57px;
 left: -148px;
 top: 510px;
 
-background: #79B251;
+background: #A270A3;
 border: 3px solid #000000;
 border-radius: 10px;
 }
@@ -116,7 +118,7 @@ height: 57px;
 left: -45px;
 top: 510px;
 
-background: #79B251;
+background: #A270A3;
 border: 3px solid #000000;
 border-radius: 10px;
 }
@@ -127,7 +129,7 @@ height: 57px;
 left: -250px;
 top: 585px;
 
-background: #79B251;
+background: #A270A3;
 border: 3px solid #000000;
 box-sizing: border-box;
 border-radius: 10px;
@@ -139,7 +141,7 @@ height: 57px;
 left: -145px;
 top: 585px;
 
-background: #79B251;
+background: #A270A3;
 border: 3px solid #000000;
 border-radius: 10px;
 }

@@ -1,11 +1,13 @@
 ion-content{
 
-    --ion-background-color:#A6D1EA;
+    --ion-background-color: rgb(237,138,2);
+    --ion-background-color: linear-gradient(207deg, rgba(237,138,2,0.39119397759103647) 0%, rgba(255,255,255,1) 53%, rgba(0,251,255,0.4248074229691877) 100%);
 }
 ion-tabs{
     --ion-background-color: #EFEFEF;
 }
 #Card1{ 
+    z-index: 1;
     position: absolute;
 width: 319px;
 height: 150px;
@@ -14,7 +16,7 @@ top: -60px;
 
 border: 5px solid #000000;
 border-radius: 20px;
-background-color: #EFEFEF;
+background: #EFEFEF;
 
 }
 #South{
@@ -36,7 +38,7 @@ line-height: 44px;
     width:170px;
     position: initial;
     margin: auto;
-    background-color:rgb(122, 179, 81, 1) ;
+    background-color: #A270A3 ;
     border-radius: 5px;
     padding: 16px;
     text-align: center ;
@@ -87,7 +89,7 @@ top: 463px;
     width:170px;
     position: absolute;
     margin: auto;
-    background-color:rgb(122, 179, 81, 1) ;
+    background-color: #A270A3; ;
     border-radius: 5px;
     padding: 16px;
     text-align: center ;
